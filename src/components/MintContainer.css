@@ -1,0 +1,110 @@
+.containerMint {
+  background: radial-gradient(
+    114.15% 250.07% at 100% 100%,
+    #eee623 0%,
+    #2399ee 100%
+  );
+  margin: auto;
+  background-blend-mode: screen;
+  border-radius: 20px;
+}
+
+.MintImageContainer {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerInner {
+  width: 25rem;
+}
+
+.currencyLavel,
+.QuantityLevel {
+  padding-left: 0.5rem;
+}
+
+.SelectBoxContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 23rem;
+}
+
+.SelectBox {
+  font-family: "San Francisco";
+  font-size: 1.4rem;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.05) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    rgba(0, 0, 0, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-sizing: border-box;
+  box-shadow: 2px 1px 1px rgba(255, 255, 255, 0.15),
+    inset 2px 4px 4px rgba(0, 0, 0, 0.11);
+  border-radius: 10px;
+  border: none;
+  margin: auto;
+}
+
+.QuantityInputWrapper {
+}
+.QualityInputContainer {
+  width: 80%;
+  display: flex;
+
+  justify-content: center;
+}
+
+.Positive,
+.Negative {
+  background: rgba(255, 255, 255, 0.2);
+  height: 50px;
+  width: 50px;
+}
+.Value {
+  width: 100px;
+  background: rgba(255, 255, 255, 0.2);
+  margin-left: 1rem;
+  margin-right: 1rem;
+  align-items: center;
+}
+
+.buttonMint {
+  background: #2399ee;
+  width: 96%;
+  height: 4rem;
+}
+
+.Instructions {
+  width: 100%;
+
+  font-size: 1.3rem;
+  text-align: center;
+}
+.OptionsSelect {
+  font-family: "San Francisco";
+
+  font-size: 1.4rem;
+}
+
+@media (min-width: 1024px) {
+  .containerMint {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .containerMint {
+    width: 83.333333%;
+  }
+}
+
+@media (min-width: 640px) {
+  .cont {
+    width: 83.333333%;
+  }
+}
